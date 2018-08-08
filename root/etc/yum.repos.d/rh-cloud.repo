@@ -1,0 +1,88 @@
+[rhui-rhel-7-server-rhui-extras-rpms]
+name=Red Hat Enterprise Linux 7 Server - Extras from RHUI (RPMs)
+mirrorlist=https://cds.rhel.updates.googlecloud.com/pulp/mirror//content/dist/rhel/rhui/server/7/7Server/$basearch/extras/os
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+sslverify=1
+sslcacert=/etc/pki/rhui/ca.crt
+sslclientcert=/etc/pki/rhui/product/content.crt
+sslclientkey=/etc/pki/rhui/key.pem
+
+[rhui-rhel-7-server-rhui-optional-rpms]
+name=Red Hat Enterprise Linux 7 Server - Optional from RHUI (RPMs)
+mirrorlist=https://cds.rhel.updates.googlecloud.com/pulp/mirror//content/dist/rhel/rhui/server/7/$releasever/$basearch/optional/os
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+sslverify=1
+sslcacert=/etc/pki/rhui/ca.crt
+sslclientcert=/etc/pki/rhui/product/content.crt
+sslclientkey=/etc/pki/rhui/key.pem
+
+[rhui-rhel-7-server-rhui-rh-common-rpms]
+name=Red Hat Enterprise Linux 7 Server - RH Common from RHUI (RPMs)
+mirrorlist=https://cds.rhel.updates.googlecloud.com/pulp/mirror//content/dist/rhel/rhui/server/7/$releasever/$basearch/rh-common/os
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+sslverify=1
+sslcacert=/etc/pki/rhui/ca.crt
+sslclientcert=/etc/pki/rhui/product/content.crt
+sslclientkey=/etc/pki/rhui/key.pem
+
+[rhui-rhel-7-server-rhui-rpms]
+name=Red Hat Enterprise Linux 7 Server from RHUI (RPMs)
+mirrorlist=https://cds.rhel.updates.googlecloud.com/pulp/mirror//content/dist/rhel/rhui/server/7/$releasever/$basearch/os
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+sslverify=1
+sslcacert=/etc/pki/rhui/ca.crt
+sslclientcert=/etc/pki/rhui/product/content.crt
+sslclientkey=/etc/pki/rhui/key.pem
+
+[rhui-rhel-7-server-rhui-supplementary-rpms]
+name=Red Hat Enterprise Linux 7 Server - Supplementary from RHUI (RPMs)
+mirrorlist=https://cds.rhel.updates.googlecloud.com/pulp/mirror//content/dist/rhel/rhui/server/7/$releasever/$basearch/supplementary/os
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+sslverify=1
+sslcacert=/etc/pki/rhui/ca.crt
+sslclientcert=/etc/pki/rhui/product/content.crt
+sslclientkey=/etc/pki/rhui/key.pem
+
+[rhui-rhel-ha-for-rhel-7-server-rhui-rpms]
+name=Red Hat Enterprise Linux High Availability (for RHEL 7 Server) (RPMs) from RHUI
+mirrorlist=https://cds.rhel.updates.googlecloud.com/pulp/mirror//content/dist/rhel/rhui/server/7/$releasever/$basearch/highavailability/os
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+sslverify=1
+sslcacert=/etc/pki/rhui/ca.crt
+sslclientcert=/etc/pki/rhui/product/content.crt
+sslclientkey=/etc/pki/rhui/key.pem
+
+[rhui-rhel-rs-for-rhel-7-server-rhui-rpms]
+name=Red Hat Enterprise Linux Resilient Storage (for RHEL 7 Server) (RPMs) from RHUI
+mirrorlist=https://cds.rhel.updates.googlecloud.com/pulp/mirror//content/dist/rhel/rhui/server/7/$releasever/$basearch/resilientstorage/os
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+sslverify=1
+sslcacert=/etc/pki/rhui/ca.crt
+sslclientcert=/etc/pki/rhui/product/content.crt
+sslclientkey=/etc/pki/rhui/key.pem
+
+[rhui-rhel-server-rhui-rhscl-7-rpms]
+name=Red Hat Software Collections RPMs for Red Hat Enterprise Linux 7 Server from RHUI
+mirrorlist=https://cds.rhel.updates.googlecloud.com/pulp/mirror//content/dist/rhel/rhui/server/7/$releasever/$basearch/rhscl/1/os
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+sslverify=1
+sslcacert=/etc/pki/rhui/ca.crt
+sslclientcert=/etc/pki/rhui/product/content.crt
+sslclientkey=/etc/pki/rhui/key.pem
+
